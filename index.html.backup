@@ -4,72 +4,21 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="es">
+<html>
 	<head>
 		<title>Story by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Plantilla responsive de una página diseñada por HTML5 UP" />
-		<meta name="keywords" content="HTML5, CSS3, responsive, template" />
-		<meta name="author" content="HTML5 UP" />
-		<meta name="theme-color" content="#ffffff" />
-		
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://html5up.net/story" />
-		<meta property="og:title" content="Story by HTML5 UP" />
-		<meta property="og:description" content="Plantilla responsive de una página diseñada por HTML5 UP" />
-		<meta property="og:image" content="https://html5up.net/story/images/banner.jpg" />
-
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://html5up.net/story" />
-		<meta property="twitter:title" content="Story by HTML5 UP" />
-		<meta property="twitter:description" content="Plantilla responsive de una página diseñada por HTML5 UP" />
-		<meta property="twitter:image" content="https://html5up.net/story/images/banner.jpg" />
-
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="images/favicon.png" />
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-		<link rel="manifest" href="manifest.json" />
-
-		<!-- Preload Critical Resources -->
-		<link rel="preload" href="assets/css/main.css" as="style" />
-		<link rel="preload" href="assets/js/main.js" as="script" />
-		<link rel="preload" href="images/banner.jpg" as="image" />
-
-		<!-- Stylesheets -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<!-- Security Headers -->
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https:;" />
-		<meta http-equiv="X-Frame-Options" content="DENY" />
-		<meta http-equiv="X-Content-Type-Options" content="nosniff" />
-		<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
-
-		<!-- Schema.org Markup -->
-		<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "WebPage",
-			"name": "Story by HTML5 UP",
-			"description": "Plantilla responsive de una página diseñada por HTML5 UP",
-			"url": "https://html5up.net/story",
-			"author": {
-				"@type": "Person",
-				"name": "HTML5 UP"
-			}
-		}
-		</script>
 	</head>
-	<body class="is-preload" role="document">
+	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="divided" role="main">
+			<div id="wrapper" class="divided">
 
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" aria-label="Banner principal">
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Story</h1>
 							<p class="major">A (modular, highly tweakable) responsive one-page template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
@@ -78,12 +27,12 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/banner.jpg" alt="Imagen de banner principal" loading="lazy" width="1200" height="800" />
+							<img src="images/banner.jpg" alt="" />
 						</div>
 					</section>
 
 				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first" aria-label="Primera sección destacada">
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>Magna etiam feugiat</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -92,12 +41,12 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight01.jpg" alt="Imagen de la primera sección destacada" loading="lazy" width="1200" height="800" />
+							<img src="images/spotlight01.jpg" alt="" />
 						</div>
 					</section>
 
 				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" aria-label="Segunda sección destacada">
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Tempus adipiscing</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -106,12 +55,12 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight02.jpg" alt="Imagen de la segunda sección destacada" loading="lazy" width="1200" height="800" />
+							<img src="images/spotlight02.jpg" alt="" />
 						</div>
 					</section>
 
 				<!-- Four -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" aria-label="Tercera sección destacada">
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Pharetra etiam nulla</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -120,22 +69,22 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight03.jpg" alt="Imagen de la tercera sección destacada" loading="lazy" width="1200" height="800" />
+							<img src="images/spotlight03.jpg" alt="" />
 						</div>
 					</section>
 
 				<!-- Five -->
-					<section class="wrapper style1 align-center" aria-label="Galería de imágenes">
+					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Massa sed condimentum</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
 						</div>
 
 						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in" role="region" aria-label="Galería de imágenes">
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
 								<article>
 									<a href="images/gallery/fulls/01.jpg" class="image">
-										<img src="images/gallery/thumbs/01.jpg" alt="Imagen de galería 1" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/01.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Ipsum Dolor</h3>
@@ -147,7 +96,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/02.jpg" class="image">
-										<img src="images/gallery/thumbs/02.jpg" alt="Imagen de galería 2" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/02.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Feugiat Lorem</h3>
@@ -159,7 +108,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/03.jpg" class="image">
-										<img src="images/gallery/thumbs/03.jpg" alt="Imagen de galería 3" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/03.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Magna Amet</h3>
@@ -171,7 +120,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/04.jpg" class="image">
-										<img src="images/gallery/thumbs/04.jpg" alt="Imagen de galería 4" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/04.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Sed Tempus</h3>
@@ -183,7 +132,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/05.jpg" class="image">
-										<img src="images/gallery/thumbs/05.jpg" alt="Imagen de galería 5" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/05.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Ultrices Magna</h3>
@@ -195,7 +144,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/06.jpg" class="image">
-										<img src="images/gallery/thumbs/06.jpg" alt="Imagen de galería 6" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/06.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Sed Tempus</h3>
@@ -207,7 +156,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/07.jpg" class="image">
-										<img src="images/gallery/thumbs/07.jpg" alt="Imagen de galería 7" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/07.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Ipsum Lorem</h3>
@@ -219,7 +168,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/08.jpg" class="image">
-										<img src="images/gallery/thumbs/08.jpg" alt="Imagen de galería 8" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/08.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Magna Risus</h3>
@@ -231,7 +180,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/09.jpg" class="image">
-										<img src="images/gallery/thumbs/09.jpg" alt="Imagen de galería 9" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/09.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Tempus Dolor</h3>
@@ -243,7 +192,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/10.jpg" class="image">
-										<img src="images/gallery/thumbs/10.jpg" alt="Imagen de galería 10" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/10.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Sed Etiam</h3>
@@ -255,7 +204,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/11.jpg" class="image">
-										<img src="images/gallery/thumbs/11.jpg" alt="Imagen de galería 11" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/11.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Magna Lorem</h3>
@@ -267,7 +216,7 @@
 								</article>
 								<article>
 									<a href="images/gallery/fulls/12.jpg" class="image">
-										<img src="images/gallery/thumbs/12.jpg" alt="Imagen de galería 12" loading="lazy" width="400" height="300" />
+										<img src="images/gallery/thumbs/12.jpg" alt="" />
 									</a>
 									<div class="caption">
 										<h3>Ipsum Dolor</h3>
@@ -278,71 +227,72 @@
 									</div>
 								</article>
 							</div>
+
 					</section>
 
 				<!-- Six -->
-					<section class="wrapper style1 align-center" aria-label="Sección de características">
+					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Ipsum sed consequat</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
 							<div class="items style1 medium onscroll-fade-in">
 								<section>
-									<span class="icon style2 major fa-gem" aria-hidden="true"></span>
+									<span class="icon style2 major fa-gem"></span>
 									<h3>Lorem</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-save" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-save"></span>
 									<h3>Ipsum</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-chart-bar" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-chart-bar"></span>
 									<h3>Dolor</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-wifi" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-wifi"></span>
 									<h3>Amet</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-cog" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-cog"></span>
 									<h3>Magna</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon style2 major fa-paper-plane" aria-hidden="true"></span>
+									<span class="icon style2 major fa-paper-plane"></span>
 									<h3>Tempus</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-desktop" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-desktop"></span>
 									<h3>Aliquam</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-sync-alt" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-sync-alt"></span>
 									<h3>Elit</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-hashtag" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-hashtag"></span>
 									<h3>Morbi</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-bolt" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-bolt"></span>
 									<h3>Turpis</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-envelope" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-envelope"></span>
 									<h3>Ultrices</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-leaf" aria-hidden="true"></span>
+									<span class="icon solid style2 major fa-leaf"></span>
 									<h3>Risus</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
@@ -351,40 +301,41 @@
 					</section>
 
 				<!-- Seven -->
-					<section class="wrapper style1 align-center" aria-label="Formulario de contacto">
+					<section class="wrapper style1 align-center">
 						<div class="inner medium">
 							<h2>Get in touch</h2>
-							<form method="post" action="#" aria-label="Formulario de contacto">
+							<form method="post" action="#">
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" required aria-required="true" />
+										<input type="text" name="name" id="name" value="" />
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" required aria-required="true" />
+										<input type="email" name="email" id="email" value="" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6" required aria-required="true"></textarea>
+										<textarea name="message" id="message" rows="6"></textarea>
 									</div>
 								</div>
 								<ul class="actions special">
 									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
 								</ul>
 							</form>
+
 						</div>
 					</section>
 
 				<!-- Footer -->
-					<footer class="wrapper style1 align-center" role="contentinfo">
+					<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-twitter" aria-label="Twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-facebook-f" aria-label="Facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-instagram" aria-label="Instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-linkedin-in" aria-label="LinkedIn"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon style2 fa-envelope" aria-label="Email"><span class="label">Email</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
@@ -400,30 +351,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-			<!-- Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-				gtag('config', 'G-XXXXXXXXXX');
-			</script>
-
-			<!-- Service Worker -->
-			<script>
-				if ('serviceWorker' in navigator) {
-					window.addEventListener('load', () => {
-						navigator.serviceWorker.register('/sw.js')
-							.then(registration => {
-								console.log('ServiceWorker registration successful');
-							})
-							.catch(err => {
-								console.log('ServiceWorker registration failed: ', err);
-							});
-					});
-				}
-			</script>
 
 	</body>
 </html>
