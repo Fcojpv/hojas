@@ -1,0 +1,21 @@
+{
+  "name": "Story by HTML5 UP",
+  "short_name": "Story",
+  "description": "Plantilla responsive de una página diseñada por HTML5 UP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
