@@ -6,11 +6,10 @@ Este proyecto es una adaptación del template "Story" de HTML5 UP, modificado pa
 ## Características
 - Diseño responsivo y moderno
 - Estructura modular basada en componentes
-- Optimizado para SEO y accesibilidad
 - Integración con redes sociales
 - Formulario de contacto para consultas
 - Sección de apoyo y donaciones
-- Galería de imágenes evangelísticas
+- Galería de imágenes
 
 ## Estructura del Proyecto
 ```
@@ -49,15 +48,6 @@ Este proyecto está basado en el template "Story" de HTML5 UP, distribuido bajo 
   - Scrollex (github.com/ajlkn/jquery.scrollex)
   - Responsive Tools (github.com/ajlkn/responsive-tools)
 
-## Instalación y Uso
-1. Clona el repositorio:
-   ```bash
-   git clone [URL_DEL_REPOSITORIO]
-   ```
-
-2. Abre `index.html` en tu navegador para ver el sitio.
-
-3. Para modificar secciones específicas, edita los archivos correspondientes en la carpeta `components/`.
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, asegúrate de:
